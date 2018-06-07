@@ -11,6 +11,6 @@ def happy_birthday(birthday_kids)
   Sarah: 6,
   Amanda: 27}
 end
-hash.each do
+hash.each do |i|
   puts "Happy Birthday #{key}! You are now #{value} years old!"
 end
